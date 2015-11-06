@@ -8,7 +8,7 @@ MAINTAINER Gus Segura "kyanyoga@yahoo.com"
 # Install Python and Git
 RUN apt-get update && apt-get install -y python git
 
-RUN git config --global http.proxy https_proxy=http://proxy.compaq.com:8080
+# RUN git config --global http.proxy https_proxy=http://my.corp.com:8080
 # git clone https://github.com/kyanyoga/perfmon.gitRUN . ~/.bashrc
 RUN cd /opt && git clone https://github.com/kyanyoga/perfmon.git
 
