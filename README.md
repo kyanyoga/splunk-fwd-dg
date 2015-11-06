@@ -1,5 +1,5 @@
 # splunk-fwd-dg
-SplunkForwarder with Python and Data Generator Dockerfile.
+SplunkForwarder with Python and Data Generator Dockerfile. Git, apt-get through corporate proxy firewall.
 
 ## notes
 Ever try to install apt-get behind a corp firewall? : There is a config change that should help.
