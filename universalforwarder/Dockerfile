@@ -1,4 +1,4 @@
-FROM outcoldman/splunk:6.3.0-forwarder
+FROM outcoldman/splunk:6.4-forwarder
 MAINTAINER Gus Segura "kyanyoga@yahoo.com"
 
 # Configure proxy for apt-get - install packages
